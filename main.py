@@ -5705,4 +5705,4 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("-p", "--port", type=int, default=8080)
     args = parser.parse_args()
-    start_server(start, port=args.port,cdn=True,debug=True,max_payload_size='10000000',reconnect_timeout=4)
+    start_server(start, port=args.port,debug=True,max_payload_size='10000000',reconnect_timeout=4)
